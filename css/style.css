@@ -5,6 +5,14 @@ body{
 }
 /* header */
 
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.page-container{
+    display: flex;
+}
+
 .logo{
     color: var(--iris, #4D5AE5);
     font-family: "Raleway", sans-serif;
