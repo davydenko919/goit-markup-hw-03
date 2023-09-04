@@ -158,6 +158,23 @@ img{
 
 /* section 2 featurs */
 
+.features{
+    padding: 120px 0
+}
+
+.visually-hidden{
+    display: none;
+}
+
+.features-list{
+    display: flex;
+    gap: 24px;
+}
+
+.features-item{
+    width: calc((100% - 72px) / 4);
+}
+
 .features-item-head{
     color: var(--navyblue, #2E2F42);
 
@@ -168,6 +185,7 @@ img{
     font-weight: 500;
     line-height: 120%;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 
 .features-item-text{
