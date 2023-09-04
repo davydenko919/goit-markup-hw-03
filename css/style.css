@@ -102,6 +102,11 @@ img{
 /* main */
 
 /* section 1 hero */
+
+.hero-container{
+    padding: 188px 0
+}
+
 .hero{
     background-color:#2e2f42;
 }
@@ -115,6 +120,7 @@ img{
     font-weight: 700;
     line-height:107.143%;
     letter-spacing: 1.12px;
+    max-width: 496px;
 }
 
 .hero-button{
@@ -127,7 +133,12 @@ img{
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.64px;
-    
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 .hero-button:hover{
     background-color: #404BBF;
