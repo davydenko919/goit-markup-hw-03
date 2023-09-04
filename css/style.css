@@ -9,7 +9,10 @@ img{
 }
 
 .container{
-
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px; 
+    padding-right: 15px;
 }
 
 
@@ -24,6 +27,11 @@ img{
     display: flex;
 }
 
+.page-navigation{
+    display: flex;
+    align-items: center;
+}
+
 .logo{
     color: var(--iris, #4D5AE5);
     font-family: "Raleway", sans-serif;
@@ -34,6 +42,7 @@ img{
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 76px
 }
 .logo-sekond-color{color: var(--navyblue, #2E2F42); }
 
@@ -48,6 +57,14 @@ img{
     text-decoration: none;
 }
 
+.menu-list{
+    display: flex;
+    gap: 40px;
+}
+
+.menu-item{
+    padding: 24px 0
+}
 
 
 .menu-link:hover,.menu-link:focus,.contacts-link:hover,.contacts-link:hover{
@@ -79,6 +96,8 @@ img{
 
 .contacts-list{
     list-style-type: none;
+    display: flex;
+    gap: 40px;
 }
 /* main */
 
