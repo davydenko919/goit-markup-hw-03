@@ -283,8 +283,18 @@ img {
 
 /* section 4 portfolio */
 
+.pottfolio-container{
+    padding-top: 120px; 
+    padding-bottom: 120px;
+}
+
 .pottfolio {
   background: #fff;
+}
+
+.card-container{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio-heading {
@@ -320,6 +330,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px
 }
 
 .portfolio-list-text {
