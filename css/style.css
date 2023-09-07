@@ -184,8 +184,8 @@ img {
   gap: 24px;
 }
 
-.features-item{
-    width: calc((100% - 72px) / 4);
+.features-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .features-item-head {
@@ -256,6 +256,9 @@ img {
   background-color: #ffffff;
   display: flex;
   gap: 24px;
+  background-color: #FFFFFF;
+  display: flex;
+  gap: 24px;
 }
 .team-item-text {
   color: var(--slate, #434455);
@@ -271,11 +274,11 @@ img {
 }
 
 .team-item {
-    background-color: #FFFFFF;
-    
-        width: calc((100% - 72px) / 4);
-        border-radius: 0px 0px 4px 4px;
-    }
+  background-color: #ffffff;
+
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
 
 .worker {
   padding: 32px 0;
@@ -332,6 +335,7 @@ img {
 /* footer */
 .page-footer {
   background: var(--navyblue, #2e2f42);
+  padding: 100px 0;
 }
 
 .footer-link {
@@ -344,6 +348,8 @@ img {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -356,6 +362,7 @@ img {
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+  max-width: 264px;
 }
 
 .footer-logo-sekond-color {
