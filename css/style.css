@@ -36,6 +36,7 @@ img {
 
 .page-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .page-navigation {
@@ -138,6 +139,8 @@ img {
   line-height: 107.143%;
   letter-spacing: 1.12px;
   max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-button {
@@ -156,6 +159,8 @@ img {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
 }
 .hero-button:hover {
   background-color: #404bbf;
@@ -185,7 +190,7 @@ img {
 }
 
 .features-item {
-    width: calc((100%-3*24px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .features-item-head {
@@ -273,7 +278,7 @@ img {
 .team-item {
   background-color: #ffffff;
 
-  width: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -318,8 +323,12 @@ img {
   row-gap: 48px;
 }
 
-.portfolio-list-item{
+.portfolio-list-item {
     width: calc((100% - 48px) / 3);
+}
+
+.portfolio-img{
+    width: 100%;
 }
 
 .portfolio-list-heading {
