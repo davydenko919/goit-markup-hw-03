@@ -283,13 +283,10 @@ img {
 
 /* section 4 portfolio */
 
-.pottfolio-container{
-    padding-top: 120px; 
-    padding-bottom: 120px;
-}
 
 .pottfolio {
   background: #fff;
+  padding: 120px 0 120px 0;
 }
 
 .card-container{
